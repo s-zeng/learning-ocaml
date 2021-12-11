@@ -1,0 +1,4 @@
+(library
+  (name puzzles)
+  (libraries core)
+  (preprocess (pps ppx_jane ppx_let)))
